@@ -78,7 +78,6 @@ function completedTask(t){
 
 
 function AddItem(value) {
-    list.innerHTML=""
     let li = document.createElement('li');
     li.className = "note";
     li.innerHTML = `
@@ -132,7 +131,7 @@ function sbText(t){
 
 
 function read_tasks(){
-    for (let i=0; i < localStorage.length; i++) {
+    for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         const value = localStorage.getItem(key);
             AddItem(value);
