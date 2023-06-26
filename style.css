@@ -103,3 +103,25 @@ img:active{
     border-radius: 11px;
     background-color: #66BFBF;
 }
+
+@media (max-width : 767px){
+    body{
+        font-size: 18px;
+    }
+    span{
+        margin:8px;
+        padding: 4px;
+    }
+    .sq{
+        width: 90%;
+        margin: 15px;
+    }
+    #btn{
+        width: 15%;
+        margin: 0px;
+    }
+    img{
+        width: 15px;
+        margin: 0 4px;
+    }
+}
